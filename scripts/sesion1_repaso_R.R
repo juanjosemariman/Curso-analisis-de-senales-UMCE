@@ -10,7 +10,7 @@ library(dplyr)
 ##############################################################
 
 # Definiendo el path (ruta) del archivo CSV
-ruta_archivo <- "datos/acc_brazo.csv"  # Cambiar por la ruta real
+ruta_archivo <- "data/raw/acc_brazo.csv"  # Cambiar por la ruta real
 # Importar datos
 df <- read.csv(ruta_archivo, header = TRUE, sep = ",")# versión 1,
 dim(df)
